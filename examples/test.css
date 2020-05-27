@@ -1,0 +1,34 @@
+body {
+  font-size: 14px;
+}
+
+h1 {
+  width: 640px;
+  padding: 5px 10px;
+  font-size: 64px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+}
+
+@media screen and (min-width: 768px;) {
+  h1 {
+    width: 960px;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    -webkit-transform: rotate(0) scale(1);
+    transform: rotate(0) scale(1);
+  }
+
+  50% {
+    -webkit-transform: rotate(180deg) scale(.6);
+    transform: rotate(180deg) scale(.6);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg) scale(1);
+    transform: rotate(360deg) scale(1);
+  }
+}
