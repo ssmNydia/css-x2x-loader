@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "description": "webpack loader for x2x css file",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha test.js --slow 2000"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ssmNydia/css-x2x-loader.git"
