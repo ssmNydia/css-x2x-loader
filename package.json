@@ -1,0 +1,32 @@
+{
+  "name": "css-x2x-loader",
+  "version": "0.1.0",
+  "description": "webpack loader for x2x css file",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js --slow 2000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssmNydia/css-x2x-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "css",
+    "px2rem",
+    "rem2rpx",
+    "px2rpx"
+  ],
+  "author": "sansui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ssmNydia/css-x2x-loader/issues"
+  },
+  "homepage": "https://github.com/ssmNydia/css-x2x-loader#readme",
+  "dependencies": {
+    "css": "^2.2.4",
+    "extend": "^3.0.2",
+    "loader-utils": "^2.0.0"
+  }
+}
