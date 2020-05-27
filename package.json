@@ -1,6 +1,6 @@
 {
   "name": "css-x2x-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "webpack loader for x2x css file",
   "main": "index.js",
   "scripts": {},
