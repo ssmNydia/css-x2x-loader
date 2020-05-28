@@ -1,18 +1,18 @@
 body {
-  font-size: 14px;
+  font-size: .14rem;
 }
 
 h1 {
-  width: 640px;
-  padding: 5px 10px;
-  font-size: 64px;
-  border: 1px solid #ccc;
+  width: 6.4rem;
+  padding: .05rem .1rem;
+  font-size: .64rem;
+  border: .01rem solid #ccc;
   background: #f9f9f9;
 }
 
 @media screen and (min-width: 768px;) {
   h1 {
-    width: 960px;
+    width: 9.6rem;
   }
 }
 

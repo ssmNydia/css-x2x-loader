@@ -33,7 +33,7 @@ module.exports = {
         loader: 'css-x2x-loader',
         options: {
           type: 'px2rem',
-          tagUnit: 100,
+          tagUnit: 75,
           tagPrecision: 8
         }
       }]
@@ -69,7 +69,7 @@ Supported values:
 
 Default: `100`
 
-The `100` value means `100px = 1rem`,when type is `px2rem`.
+The `100` value means `100px = 1rem`.
 
 #### tagPrecision
 

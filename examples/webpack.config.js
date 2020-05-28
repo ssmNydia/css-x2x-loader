@@ -19,9 +19,7 @@ module.exports = {
       {
         loader: 'css-x2x-loader',
         options: {
-          type: 'px2rem',
-          tagUnit: 100,
-          tagPrecision: 8
+          type: 'rem2rpx'
         }
       }]
     }]
